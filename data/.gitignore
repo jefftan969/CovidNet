@@ -1,3 +1,4 @@
-fasta_samples.npy
-fasta_samples.npy.zip
 spikeprot0309.fasta
+metadata.tsv
+train_*
+validation_*
