@@ -4,8 +4,29 @@ Course project for 11-785: Deep Learning Applications in COVID-19.
 
 Creating a sequence model using recurrent neural networks to identify genomic divergence, mutations, and clade in COVID-19 spike protein sequences.
 
-Abbey Pei, Amelia Kuang, Jeff Tan, Jenny Ding, Sylvia Zhang
-TA Mentor: Joseph Konan
+Team members: Abbey Pei, Amelia Kuang, Jeff Tan, Jenny Ding, Sylvia Zhang
+
+TA mentor: Joseph Konan
+
+## Abstract
+
+SARS-CoV-2 is an RNA virus that has caused over 3 million deaths and infected over 150 million worldwide. With thousands of strains sequenced to date, SARS-CoV-2 poses significant challenges to scientists on keeping pace with lab diagnostic design, clinical treatment options, and vaccine development. Therefore, an efficient method of identifying mutations, divergence, and clade of lab samples from patients would have a significant impact on the documentation of SARS-CoV-2 genomics. These developments help researchers observe trends in the pandemic over time and respond accordingly. This study tackles directly the concerns of SARS-CoV-2, using recurrent neural networks to classify protein sequences and predict their mutations.
+
+## Project Video
+
+[![Project Video](https://img.youtube.com/vi/IKEtD5p6D1M/0.jpg)](https://www.youtube.com/watch?v=IKEtD5p6D1M)
+
+## Dependencies
+
+We use the following Python packages in our project:
+ - **biopython**: For data processing and parsing FASTA protein sequence files
+ - **csv**: For data processing and parsing metadata files
+ - **imbalanced-learn**: For data downsampling using RandomUnderSampler
+ - **matplotlib**: For plotting accuracy, loss, and other model metrics
+ - **numpy**: For data processing and analysis
+ - **pandas**: For data analysis
+ - **scikit-learn**: For embedding visualization using T-SNE and PCA
+ - **torch**: For deep learning model development
 
 ## Repository Organization
 
